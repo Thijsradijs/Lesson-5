@@ -15,8 +15,8 @@ taravao12 <- dropLayer(x=taravao2, i=9)
 ˆ# Replace cloud contaminated pixels by NAs
 
 
-cloud[cloud == 0] <- NA
-cloud2[cloud2 == 0] <- NA
+cloud[cloud == 1] <- NA
+cloud2[cloud2 == 1] <- NA
 
 ˆ# Write a micro function that performs the averaging, as described in the exercis edefi
 ni-
